@@ -18,11 +18,11 @@ This project implements a tennis scoring system that handles:
 
 The main challenges in implementing a tennis scoring system were:
 
-1. **Complex Scoring Rules**: Tennis has unique scoring terminology and rules that don't follow typical numerical progression. Converting between internal point representation and tennis-specific scoring terms required careful design.
+1. **Complex Scoring Rules** - Tennis has unique scoring terminology and rules that don't follow typical numerical progression. Converting between internal point representation and tennis-specific scoring terms required careful design.
 
-2. **State Management**: Tracking game states (regular play, deuce, advantage) and set states (regular games, tiebreak) needed clear separation of concerns.
+2. **State Management** - Tracking game states (regular play, deuce, advantage) and set states (regular games, tiebreak) needed clear separation of concerns.
 
-3. **Edge Cases**: Handling scenarios like:
+3. **Edge Cases** - Handling scenarios like:
    - Multiple deuce-advantage sequences
    - Tiebreak initiation at 6-6
    - Set winning conditions (6-0 vs 7-5 vs 7-6)
